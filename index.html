@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Praetor Trading — Five AI models, one signal</title>
+<meta name="description" content="Every hour, five AI models from five different companies analyse the same market. Praetor sends a signal only when at least four agree. Every analysis is timestamped on the Bitcoin blockchain.">
+<meta name="theme-color" content="#262624">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Praetor Trading — Five AI models, one signal">
+<meta property="og:description" content="A trading signal only when four of five AI models agree. Every analysis timestamped on Bitcoin.">
+<meta property="og:url" content="https://praetortrading.finance/">
+<link rel="canonical" href="https://praetortrading.finance/">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/montserrat-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/countdown.js" defer></script>
+<script src="assets/live.js" defer></script>
+</head>
+<body>
+
+<div class="strip" role="region" aria-label="Status">
+<div class="wrap">
+<span>BTC/USDT <b data-k="price">74,698.06</b></span>
+<span>Last published analysis <b data-k="last">9 Nov, 18:00 UTC</b></span>
+<span>Analyses run <b data-k="analyses">25</b></span>
+<span class="asof">Paper trading · figures published with a 24-hour delay</span>
+</div>
+</div>
+
+<header class="site-header">
+<div class="wrap">
+<a href="#top" aria-label="Praetor Trading home"><img src="assets/logo.svg" width="36" height="36" alt=""></a>
+<nav class="nav" aria-label="Main">
+<a href="#how">How it works</a>
+<a href="#votes">The models</a>
+<a href="#performance">Performance</a>
+<a href="#verify">Verification</a>
+<a href="#pricing">Pricing</a>
+<a href="#faq">FAQ</a>
+</nav>
+<a class="btn btn-primary btn-sm cta" href="#waitlist">Join the waitlist</a>
+</div>
+</header>
+
+<main id="top">
+
+<section class="wrap hero" aria-labelledby="h-hero">
+<div class="hero-copy">
+<span class="notice"><i aria-hidden="true"></i>In paper-trading testing · launching January 1, 2027</span>
+<h1 id="h-hero">Five AI models.<br>One signal, only when four of them agree.</h1>
+<p class="lead">Every hour, five models from five different companies read the same chart on their own. Most hours they disagree, and Praetor stays silent. When at least four agree, you get a signal with entry, stop loss and target, and you decide.</p>
+<div class="actions">
+<a class="btn btn-primary" href="#waitlist">Join the waitlist</a>
+<a href="#verify" style="font-size:15px;font-weight:700">See how results are verified</a>
+</div>
+<div class="countdown" data-launch="2027-01-01T11:00:00Z" aria-live="polite">
+<div class="cd-units"><div><b data-cd="d">--</b><span>days</span></div><div><b data-cd="h">--</b><span>hours</span></div><div><b data-cd="m">--</b><span>min</span></div><div><b data-cd="s">--</b><span>sec</span></div></div>
+<p class="cd-note small faint">Launch: January 1, 2027 · 12:00 CET</p>
+</div>
+<p class="small faint">Every analysis is timestamped on the Bitcoin blockchain. Not financial advice.</p>
+</div>
+
+<figure class="hero-visual" style="margin:0">
+<div class="panel panel-elevated" role="group" aria-label="Example of a Praetor signal">
+<div class="panel-head">
+<span class="title">New signal</span>
+<span>BTC/USDT · 1H</span>
+<span>4 Nov, 13:00 UTC</span>
+<span class="end">Expires in <b>4:59</b></span>
+</div>
+<div class="signal-main">
+<div>
+<div class="label">Direction</div>
+<div class="direction gain">BUY</div>
+<div class="small muted" style="font-weight:600">Likely · 4 of 5 models agree</div>
+</div>
+<div class="levels">
+<div><span>Entry</span><b>78,364.01</b></div>
+<div><span>Stop loss</span><b>77,500.00</b></div>
+<div><span>Target</span><b>79,575.00</b></div>
+<div><span>Risk/reward</span><b>1 : 1.40</b></div>
+</div>
+</div>
+<div class="votes">
+<div class="vote"><b>Gemini 3.8 Flash</b><b class="gain">Buy</b><span>Volume-led recovery, rising moving averages and a supportive RSI.</span></div>
+<div class="vote"><b>Qwen 3.7 Plus</b><b class="gain">Buy</b><span>Above MA20 and MA50, neutral RSI with room to rise, volume increasing.</span></div>
+<div class="vote"><b>Grok 4.7</b><b class="gain">Buy</b><span>Averages aligned upward and RSI not overbought: moderate bias.</span></div>
+<div class="vote"><b>GPT-5.5</b><b class="gain">Buy</b><span>Rising averages and positive RSI; momentum moderate, not yet overbought.</span></div>
+<div class="vote"><b>DeepSeek V4.1 Flash</b><b class="muted">Hold</b><span>Close to resistance after 20 flat candles: wait for a breakout.</span></div>
+</div>
+<div class="panel-foot">
+<p>20 credits ($0.20), charged whether you accept, decline or let it expire.</p>
+<span class="fake-btn" aria-hidden="true">Decline</span>
+<span class="fake-btn primary" aria-hidden="true">Accept</span>
+</div>
+</div>
+<figcaption class="xsmall faint">A real signal from Praetor's paper trading. It closed at the target one hour later: +1.31R.</figcaption>
+</figure>
+</section>
+
+<section class="band" aria-label="Activity so far">
+<div class="wrap">
+<dl class="stats">
+<div><dt>Analyses run</dt><dd data-k="analyses">25</dd></div>
+<div><dt>Hours with no signal</dt><dd data-k="nosignal">92%</dd></div>
+<div><dt>Signals issued</dt><dd data-k="signals">2</dd></div>
+<div><dt>Closed trades</dt><dd data-k="wl">1 <span class="gain">W</span> · 1 <span class="loss">L</span></dd></div>
+<div><dt>Net result</dt><dd data-k="net" class="gain">+0.18R</dd></div>
+<div><dt>Timestamped on Bitcoin</dt><dd>All</dd></div>
+</dl>
+<p class="band-note">Paper trading on BTC/USDT, 1-hour chart, since <span data-k="since">3 Nov 2026</span>. Figures up to <span data-k="asof">9 Nov 2026, 18:00 UTC</span>. <span data-k="judge">Fewer than 30 closed trades: far too early to judge performance.</span></p>
+</div>
+</section>
+
+<section id="how" class="wrap section how" aria-labelledby="h-how">
+<div class="how-intro">
+<h2 id="h-how" class="h2">How it works</h2>
+<p class="muted" style="max-width:340px">You choose the markets. The models do the reading. The decision stays with you.</p>
+</div>
+<ol class="steps">
+<li>
+<h3>Choose your markets</h3>
+<p>The ones you already trade. Praetor tells you whether each market has been tested.</p>
+<div class="mini-list" aria-hidden="true">
+<div><b>BTC/USDT</b><span class="gain" style="font-weight:700">Tested · On</span></div>
+<div><b>Another market</b><span class="faint" style="font-weight:700">Not tested · Off</span></div>
+</div>
+</li>
+<li>
+<h3>Five models vote every hour</h3>
+<p>Each one reads the chart independently and answers buy, sell or hold.</p>
+<div class="chips" aria-hidden="true"><span class="s">S</span><span class="s">S</span><span class="s">S</span><span class="s">S</span><span>H</span></div>
+</li>
+<li>
+<h3>You decide in five minutes</h3>
+<p>A signal arrives only with four or five votes. Accept it or decline it before it expires.</p>
+<div class="timer" aria-hidden="true"><span>4:59</span><i></i></div>
+</li>
+</ol>
+</section>
+
+<section id="votes" class="wrap section stack" aria-labelledby="h-votes">
+<div class="split-head">
+<div>
+<h2 id="h-votes" class="h2">Every vote, every hour, as recorded</h2>
+<p class="lead">The latest published hours, with each model's vote. A signal goes out only on a row where four or more votes match. Votes are published with a 24-hour delay, so signals can't be copied for free.</p>
+</div>
+<div class="legend"><span><b class="gain">B</b> Buy</span><span><b class="loss">S</b> Sell</span><span><b>H</b> Hold</span><span><b class="faint">—</b> Not called</span><span><b class="faint">×</b> Error</span></div>
+</div>
+<div class="table-wrap tinted">
+<table class="matrix">
+<caption data-k="matrixcap">BTC/USDT · 1H · 7 Nov – 9 Nov · times in UTC</caption>
+<thead><tr>
+<th scope="col">Hour</th><th scope="col" class="num">Price</th>
+<th scope="col" class="c">Gemini 3.8 Flash</th><th scope="col" class="c">Qwen 3.7 Plus</th><th scope="col" class="c">DeepSeek V4.1 Flash</th><th scope="col" class="c">Grok 4.7</th><th scope="col" class="c">GPT-5.5</th>
+<th scope="col">Outcome</th>
+</tr></thead>
+<tbody id="matrix-body">
+<tr><td>9 Nov, 18:00</td><td class="num">74,698.06</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>9 Nov, 08:00</td><td class="num">74,571.18</td><td class="c loss">S</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>9 Nov, 00:00</td><td class="num">75,240.01</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>8 Nov, 21:00</td><td class="num">74,135.77</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>8 Nov, 15:00</td><td class="num">76,073.74</td><td class="c">H</td><td class="c gain">B</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>8 Nov, 08:00</td><td class="num">75,942.24</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>8 Nov, 00:00</td><td class="num">75,798.85</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>7 Nov, 20:00</td><td class="num">75,698.28</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>7 Nov, 15:00</td><td class="num">75,758.01</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+<tr><td>7 Nov, 07:00</td><td class="num">76,094.95</td><td class="c">H</td><td class="c">H</td><td class="c">H</td><td class="c nc">—</td><td class="c nc">—</td><td class="faint">No signal</td></tr>
+</tbody>
+</table>
+</div>
+<p class="small faint" style="max-width:760px">Not called: three models vote first. If four agreeing votes are already out of reach, Praetor doesn't query the other two. Same outcome, lower cost.</p>
+</section>
+
+<section id="performance" class="wrap section stack" aria-labelledby="h-perf" style="gap:24px">
+<div class="split-head">
+<div>
+<h2 id="h-perf" class="h2">Every closed trade, losses included</h2>
+<p class="lead">Taken straight from the record, newest first. Paper trading: real market prices, simulated money.</p>
+</div>
+<dl class="summary">
+<div><dt>Closed</dt><dd data-k="closed">2</dd></div>
+<div><dt>Won / lost</dt><dd data-k="wl2">1 / 1</dd></div>
+<div><dt>Net</dt><dd data-k="net" class="gain">+0.18R</dd></div>
+<div><dt>Average</dt><dd data-k="avg">+0.09R</dd></div>
+</dl>
+</div>
+<div class="table-wrap">
+<table class="perf">
+<thead><tr>
+<th scope="col">Opened (UTC)</th><th scope="col">Market</th><th scope="col">Side</th><th scope="col">Votes</th>
+<th scope="col" class="num">Entry</th><th scope="col" class="num">Stop</th><th scope="col" class="num">Target</th>
+<th scope="col">Closed</th><th scope="col" style="width:200px">Result</th>
+</tr></thead>
+<tbody id="perf-body">
+<tr><td>4 Nov, 13:00</td><td>BTC/USDT</td><td class="gain"><b>Buy</b></td><td>4/5</td><td class="num">78,364.01</td><td class="num">77,500.00</td><td class="num">79,575.00</td><td class="muted">Target hit · 14:00</td><td><div class="rbar"><i><span style="width:50%"></span><span style="width:32.8%;background:var(--gain)"></span></i><b class="gain">+1.31R</b></div></td></tr>
+<tr><td>3 Nov, 21:00</td><td>BTC/USDT</td><td class="gain"><b>Buy</b></td><td>4/5</td><td class="num">77,902.52</td><td class="num">77,290.00</td><td class="num">78,625.00</td><td class="muted">Stop hit · 4 Nov, 00:00</td><td><div class="rbar"><i style="justify-content:flex-end"><span style="width:28.2%;background:var(--loss)"></span><span style="width:50%"></span></i><b class="loss">−1.13R</b></div></td></tr>
+</tbody>
+</table>
+</div>
+<div class="foot-notes">
+<span>R is the result as a multiple of the amount at risk. −1R means the stop loss was hit; +1.31R means the gain was 1.31 times the risk.</span>
+<span>An equity curve will be shown once 30 trades have closed.</span>
+</div>
+</section>
+
+<section id="verify" class="verify" aria-labelledby="h-verify">
+<div class="wrap">
+<div class="receipt">
+<div class="receipt-head"><span>Verification receipt</span><span class="gain">Verified</span></div>
+<dl>
+<div><dt>Record</dt><dd>#13</dd></div>
+<div><dt>Created</dt><dd>5 Nov 2026, 23:40 UTC</dd></div>
+<div><dt>File</dt><dd>20261105-2340_anello13.txt</dd></div>
+<div><dt>SHA-256</dt><dd>6be1907a07c6988542d9626a366fba8204fab76c1e58438f80856efe13db9e68</dd></div>
+<div><dt>Timestamp service</dt><dd>OpenTimestamps</dd></div>
+<div><dt>Bitcoin block</dt><dd>974,732</dd></div>
+<div><dt>Existed as of</dt><dd>6 Nov 2026 (CET)</dd></div>
+</dl>
+</div>
+<div class="verify-copy">
+<h2 id="h-verify" class="h2">Don't take our word for it. Check the record yourself.</h2>
+<p class="muted">Each hourly analysis is added to a hash chain and anchored in the Bitcoin blockchain. After that, no one can edit or delete a result without it showing, including us.</p>
+<ol class="numbered">
+<li><b>1</b><span>Download any analysis and its <b>.ots</b> proof from the public record.</span></li>
+<li><b>2</b><span>Drop both files on <a href="https://opentimestamps.org" rel="noopener">opentimestamps.org</a>.</span></li>
+<li><b>3</b><span>Read which Bitcoin block recorded it, and when.</span></li>
+</ol>
+<p class="small faint">The public record opens at launch. Until then, write to <a href="mailto:support@praetortrading.finance">support@praetortrading.finance</a> and we'll send you any record with its proof.</p>
+</div>
+</div>
+</section>
+
+<section id="pricing" class="wrap section stack" aria-labelledby="h-pricing">
+<div style="display:flex;flex-direction:column;gap:12px">
+<h2 id="h-pricing" class="h2">Pay for what you use</h2>
+<p class="lead">Launch pricing, which may change before launch. No mandatory subscription. Credits never expire. 100 credits = $1.</p>
+</div>
+<div class="pricing">
+<div>
+<span class="small faint" style="font-weight:700">Rate card</span>
+<table class="plain">
+<thead><tr><th scope="col">Item</th><th scope="col" class="num">Credits</th><th scope="col" class="num">USD</th></tr></thead>
+<tbody>
+<tr><td><b>Hourly check, no signal</b><span class="sub">Per market, per hour</span></td><td class="num"><b>1</b></td><td class="num"><b>$0.01</b></td></tr>
+<tr><td><b>Signal</b><span class="sub">Accepted, declined or expired</span></td><td class="num"><b>20</b></td><td class="num"><b>$0.20</b></td></tr>
+<tr><td><b>Typical day, one market</b><span class="sub">Published after the testing month</span></td><td class="num faint">—</td><td class="num faint">—</td></tr>
+</tbody>
+</table>
+</div>
+<div>
+<span class="small faint" style="font-weight:700">Credit packs</span>
+<div style="overflow-x:auto">
+<table class="plain" style="min-width:440px">
+<thead><tr><th scope="col">Pack</th><th scope="col" class="num">Credits</th><th scope="col" class="num">AI consultations</th><th scope="col" class="num">Price</th></tr></thead>
+<tbody>
+<tr><td><b>Starter</b></td><td class="num">1,000</td><td class="num">3</td><td class="num"><b>$11.90</b></td></tr>
+<tr><td><b>Pro</b></td><td class="num">2,000</td><td class="num">5</td><td class="num"><b>$21.80</b></td></tr>
+<tr><td><b>Ultra</b></td><td class="num">5,000</td><td class="num">8</td><td class="num"><b>$51.70</b></td></tr>
+<tr><td><b>Max</b></td><td class="num">10,000</td><td class="num">15</td><td class="num"><b>$99.80</b></td></tr>
+</tbody>
+</table>
+</div>
+<span class="small faint">Every pack unlocks geopolitics and market news for one year.</span>
+</div>
+</div>
+</section>
+
+<section class="wrap section onboard" aria-labelledby="h-start">
+<div>
+<h2 id="h-start" class="h2">Never traded before? Start with play money.</h2>
+<p class="muted" style="max-width:480px">The first time you sign in, Praetor walks you through every step, from a practice trade to connecting your broker. You move to real money only when you choose to.</p>
+</div>
+<div class="panel checklist" aria-label="Getting started checklist, example">
+<div class="panel-head"><span class="title">Getting started</span><span class="end faint">5 of 10</span></div>
+<div class="progress"><i></i></div>
+<ol>
+<li class="done"><span aria-hidden="true">✓</span>Choose your name</li>
+<li class="done"><span aria-hidden="true">✓</span>Confirm you're over 18</li>
+<li class="done"><span aria-hidden="true">✓</span>Create your account</li>
+<li class="done"><span aria-hidden="true">✓</span>Answer two quick questions</li>
+<li class="done"><span aria-hidden="true">✓</span>Place a practice trade</li>
+<li class="now"><span aria-hidden="true">→</span>Tour the dashboard</li>
+<li><span></span>Connect your broker</li>
+<li><span></span>Turn on notifications</li>
+<li><span></span>Pick your markets</li>
+<li><span></span>Add credits, or keep exploring</li>
+</ol>
+</div>
+</section>
+
+<section id="about" class="wrap section founder" aria-labelledby="h-about">
+<div class="portrait">
+<!-- PHOTO: replace this div with <img src="assets/leonardo.jpg" alt="Leonardo Paolini" width="160" height="160"> -->
+<div class="avatar" role="img" aria-label="Leonardo Paolini">LP</div>
+</div>
+<div class="founder-copy">
+<h2 id="h-about" class="h2">Who's behind Praetor</h2>
+<p>Praetor is built by Leonardo Paolini, an independent web developer in Busto Arsizio, Italy. It's a one-person project, and that shapes how it works: instead of asking you to trust a person, Praetor is designed to be checked.</p>
+<p>Five models from five different companies have to agree before a signal goes out. Every analysis, including the losing trades and the quiet hours, is recorded and timestamped on Bitcoin. If the numbers aren't good enough, you'll see that here too.</p>
+<p class="sign"><b>Leonardo Paolini</b><span class="faint"> · Founder · <a href="mailto:support@praetortrading.finance">support@praetortrading.finance</a></span></p>
+</div>
+</section>
+
+<section id="faq" class="wrap section faq" aria-labelledby="h-faq">
+<h2 id="h-faq" class="h2">Questions</h2>
+<div class="faq-list">
+<details><summary>When does Praetor launch?</summary><p>Praetor launches on January 1, 2027 at 12:00 CET. Until then it is being tested with paper trading. Join the waitlist and we'll email you when it opens.</p></details>
+<details><summary>Do I need trading experience?</summary><p>No. You choose your markets, receive signals and decide whether to accept them. The onboarding starts with a practice trade using play money.</p></details>
+<details><summary>Are these real-money results?</summary><p>No. The figures on this page come from paper trading: real market prices, simulated money.</p></details>
+<details><summary>Why are the figures 24 hours old?</summary><p>So that the signals stay useful to the people who pay for them. The full record, with nothing removed, is still public after the delay.</p></details>
+<details><summary>Can I stop Praetor at any time?</summary><p>Yes. You can pause signals whenever you like, or stop Praetor completely. Stopping closes any open trades.</p></details>
+<details><summary>How do I know results haven't been edited?</summary><p>Every analysis is anchored in the Bitcoin blockchain, so it can be checked independently on opentimestamps.org.</p></details>
+<details><summary>Is this financial advice?</summary><p>No. Signals are generated by AI models and are not personalised financial advice. Every trade is your decision.</p></details>
+</div>
+</section>
+
+<section id="waitlist" class="wrap waitlist" aria-labelledby="h-waitlist">
+<div class="waitlist-box">
+<div>
+<h2 id="h-waitlist">Be first in line when Praetor opens.</h2>
+<p class="muted">One email at launch, and the occasional update on the testing results. No spam, unsubscribe any time.</p>
+</div>
+<!-- WAITLIST: Brevo form "Waitlist sito". Field names match the Brevo contact attributes. -->
+<form class="form" id="waitlist-form" action="https://54488803.sibforms.com/serve/MUIFAF_CI1OBGtdtkV74QoO4GqZ13RgvnsonoYDL1ikQcyLK-1YGHH9T9x7QEm081fZXsCuQXPBQcRqYfa49kiE0z_sFiIDGDBA0kHZ-UyFa1UJxBaKOaViZw0P-mRLWZZdKJntfV2kjfR0EHzbRGt2-Y9TMgZXh3ul9u614RjAmtkvKdGDtvMZLLUuW8PwdnzsN6WRHpY7nLfKq5g==" method="post">
+<label class="field">Email address
+<input type="email" name="EMAIL" autocomplete="email" required placeholder="you@example.com">
+</label>
+<div class="form-row">
+<label class="field">Country
+<select name="PAESE" autocomplete="country-name" required>
+<option value="" selected disabled>Select…</option>
+<option>United States</option><option>United Kingdom</option><option>Italy</option><option>Germany</option><option>France</option><option>Canada</option><option>Spain</option><option>Netherlands</option><option>Switzerland</option><option>Australia</option><option>Other</option>
+</select>
+</label>
+<label class="field">Trading experience
+<select name="EXPERIENCE" required>
+<option value="" selected disabled>Select…</option>
+<option>New to trading</option><option>Some experience</option><option>Experienced trader</option>
+</select>
+</label>
+</div>
+<label class="field">How did you hear about Praetor?
+<select name="SOURCE" required>
+<option value="" selected disabled>Select…</option>
+<option>TikTok</option><option>YouTube</option><option>Instagram</option><option>X (Twitter)</option><option>Facebook</option><option>Friend or family</option><option>Search engine</option><option>Other</option>
+</select>
+</label>
+<label class="consent"><input type="checkbox" name="OPT_IN" value="1" required><span>I'm 18 or over and I agree to receive emails about Praetor's launch. See the <a href="privacy.html">privacy notice</a>.</span></label>
+<input class="hp" type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
+<input type="hidden" name="locale" value="en">
+<button class="btn btn-primary" type="submit">Join the waitlist</button>
+<p class="form-msg" role="status" hidden></p>
+</form>
+</div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-cols">
+<div><img src="assets/logo.svg" width="32" height="32" alt="Praetor Trading"><span class="small faint">praetortrading.finance</span></div>
+<nav aria-label="Product"><b>Product</b><a href="#how">How it works</a><a href="#performance">Performance</a><a href="#verify">Verification</a><a href="#pricing">Pricing</a></nav>
+<nav aria-label="Company"><b>Company</b><a href="#about">About</a><a href="mailto:support@praetortrading.finance">support@praetortrading.finance</a></nav>
+<nav aria-label="Legal"><b>Legal</b><a href="privacy.html">Privacy notice</a></nav>
+</div>
+<p class="risk">Risk warning: trading involves significant risk and you may lose some or all of the capital you invest. Signals are generated by artificial intelligence models and do not constitute personalised financial advice. Past performance, including verifiable paper-trading results, does not guarantee future results. Praetor will be available only to people aged 18 and over.</p>
+<span class="xsmall faint">© 2026 Praetor Trading</span>
+</div>
+</footer>
+
+</body>
+</html>
